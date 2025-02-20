@@ -58,7 +58,7 @@
                     <li><a href="#">Donor and Lifetime Member</a></li>
                     <li><a href="{{route('/garally')}}">Gallery</a></li>
                     <li><a href="{{route('/video')}}">Video</a></li>
-                    <li><a href="#">Volunteer Registration</a></div></li>
+                    <li><a href="{{route("/volunder")}}">Volunteer Registration</a></div></li>
                     <li><a href="{{route('/news')}}">News</a></li>
                     <li><a href="{{route('/contact')}}">Contact</a></li>
                     
@@ -66,6 +66,7 @@
         </section>
     </nav>
 
+    {{-- slider Index --}}
     <section class="flex-container" id="main">
     <main class="container" >
             <div class="row">

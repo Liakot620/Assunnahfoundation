@@ -38,4 +38,9 @@ class HomeController extends Controller
     function contact(){
         return view('contacts');
     }
+
+    function volunder(){
+        return view('volunder');
+    
+    }
 }

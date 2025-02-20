@@ -15,3 +15,4 @@ Route::get('/garally', [HomeController::class, "garally"])->name('/garally');
 Route::get('/video', [HomeController::class, "video"])->name('/video');
 Route::get('/news', [HomeController::class, "news"])->name('/news');
 Route::get('/contact', [HomeController::class, "contact"])->name('/contact');
+Route::get('/volunder', [HomeController::class, "volunder"])->name('/volunder');
